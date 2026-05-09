@@ -19,7 +19,7 @@
     "_env:prod": "dotenvx run -f .env.prod --"
   },
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.34.0",
