@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "npm run _env:dev -- tsx watch index.ts",
     "prod": "npm run _env:prod -- tsx index.ts",
+    "prestart": "npx prisma migrate deploy",
     "start": "npm run dev",
     "makemigration": "npm run _env:dev -- npx --yes prisma migrate dev --create-only",
     "migrate:local": "npm run _env:dev -- npx --yes prisma migrate deploy",
